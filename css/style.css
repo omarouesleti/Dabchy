@@ -1,0 +1,307 @@
+
+html{
+	scroll-behavior: smooth;
+}
+#col
+{
+	opacity: 1;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.header
+
+{
+	background: rgba(0,0,100,0.0);
+	height: 100vh;
+
+}
+.video-background
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: 50%;
+	z-index: -5;
+}
+
+@media (min-aspect-ratio:16/9)
+{
+	.video-background
+	{
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+@media (max-aspect-ratio:16/9)
+{
+	.video-background
+	{
+		width: auto;
+		height: 100%;
+
+	}
+}
+
+.welcome{
+	position: relative;
+	text-align: center;
+	font-family: Poppins;
+	color: #FAEBD7;
+	top: 270px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.imgFilter{
+	filter: brightness();
+}
+body{
+	font-family: arial;
+}
+
+#home-overlay{
+	background-color: rgba(0,0,0,0.0);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#home-content{
+	width: 100%;
+	height: 100%;
+	display: table;
+	margin-top: 130px;
+}
+
+#home-content-inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#home-heading h1{
+	color: #fff;
+	font-size:65px;
+	font-weight:700;
+	text-transform: uppercase;
+	margin: 0;
+		
+}
+#home-heading h1 span{
+	color: #f4c613;
+	font-weight: 700;
+}
+
+#home-text p{
+	color: #fff;
+	font-size: 17px;
+	font-weight: 100;
+	margin: 8px 0 30px 0;
+}
+.btn-general{
+	font-family: tahoma;
+	border-radius: 28px;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin: 0 6px;
+	padding: 12px 46px 12px 46px;
+	transition: all 0.4s;
+	background-color: #fff;
+	color: #fff;
+}
+
+#TeamDiv{
+	
+}
+
+#team1{
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	border: 2px solid #000000;
+	margin: 0 auto 0 auto;
+	padding: 3px;
+
+	
+
+}
+.profile{
+	margin-top: 28px;
+	
+}
+
+.profile .img-box{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile h2{
+	font-size: 20px;
+	margin-top: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.img-box:after{
+	content: '';
+	opacity: 1;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+
+}
+.img-box ul{
+	margin: 1;
+	padding: 25px 2;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	display: block;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 1;
+}
+
+.img-box ul li{
+	width: 27px;
+	height: 30px;
+	
+	border-radius: 35%;
+	margin: 2px;
+	padding: 3px;
+	display: inline-block;
+}
+.img-box a{
+	color: #FFEBCD;
+}
+.img-box:hover:after{
+	opacity: 1;
+}
+.img-box:hover ul{
+	opacity: 1;
+}
+.img-box a:hover li{
+	color: #007bff;
+	border: 1px solid #007bff;
+}
+.img-box:after, .img-box ul, .img-box ul li{
+	transition: all 0.5s ease-in-out 0s;
+}
+
+#customers-testimonial{
+	padding: 40px 0;
+
+}
+.testimonial img{
+	max-width: 270px;
+	margin: 0 auto 0 auto;
+	border: 2px solid #3D1414;
+	padding: 3px;
+	margin-bottom: 13px;
+	border-radius: 100px;
+}
+
+.testimonial blockquote{
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: italic;
+	color: #000000;
+	padding: 5px 150px;
+	position: relative;
+}
+.testimonial blockquote:before,
+.testimonial blockquote:after{
+	font-size: 80px;
+	font-size: normal;
+	line-height: 1;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
+.testimonial blockquote::before{
+	content: "\201C";
+	top: 0;
+	left: 100px;
+}
+.testimonial blockquote::after{
+	content: "\201C";
+	bottom: : 0;
+	right: 100px;
+}
+.testimonial-author p{
+	font-size: 17px;
+	color: #000000;
+}
+.testimonial-author p strong{
+	display: block;
+}
+#imgb{
+	--background: url(../img/bg5.jpg) no-repeat;
+	background-color: #FCF7F7;
+
+	
+}
+.contact-section{
+	background:url(../img/contact-bg.jpg);
+	background-size: cover;
+	padding: 40px 0;
+}
+.contact-form{
+	max-width: 600px;
+	--margin: 10px auto;
+	padding: 0 10px;
+	overflow: hidden;
+
+}
+.contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border:0;
+	background:#111;
+	padding: 20px 40px;
+	color: #ddd;
+	transition: 0.5s;
+
+
+}
+contact-form-text:hover{
+	box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+	resize: none;
+	height: 120px;
+}
+.contact-form-btn{
+	float: left;
+	border: 0;
+	background:#34495e;
+	color: #fff;
+	padding: 12px 50px;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.contact-form-btn:hover{
+	background:#2980b9;
+}
+
+
+
+
+
+
