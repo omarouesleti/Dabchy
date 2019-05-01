@@ -44,15 +44,13 @@ if($statement->execute())
   foreach($result as $k)
   {
     $output .= '
-     
-
-   
+    
 <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
       <!-- Card -->
       <div class="card card-cascade narrower card-ecommerce example hoverable">
         <!-- Card image -->
         <div class="view view-cascade overlay ">
-          <img src="img/'.$k["image"].'"" class="card-img-top"
+          <img src="img/'.$k["image"].'"" class="card-img-top img-fluid"
             >
           <a>
             <div class="mask rgba-white-slight"></div>
@@ -96,6 +94,7 @@ if($statement->execute())
       <br>
       <hr>
     </div>
+    
     ';
   }
   

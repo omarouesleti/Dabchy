@@ -158,6 +158,7 @@
   
   <?php
   include('fetch_shoes_men.php');
+  
   ?>
     
   </div>
