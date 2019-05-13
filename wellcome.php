@@ -8,7 +8,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+   
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
     <title>Admin</title>
 </head>
 <body>
@@ -38,11 +39,15 @@
             
 
             <li class="nav-item">
-                <a class="nav-link "href="">ADD USER <i class="fas fa-user"></i></i></i></a>
+                <a class="nav-link "href="categorie.php">ADD CATEGORY <i class="fas fa-user"></i></i></i></a>
                 
             </li>
             <li class="nav-item">
-                <a class="nav-link "href="">CONTACT <i class="fas fa-envelope"></i></a>
+                <a class="nav-link "href="contactAdmin.php">CONTACT <i class="fas fa-envelope"></i></a>
+                
+            </li>
+            <li class="nav-item">
+                <a class="nav-link "href="sendmail/index.php">SEND MAIL <i class="fas fa-envelope"></i></a>
                 
             </li>
 
@@ -74,13 +79,22 @@
         </div>
         </nav>
         <br>
-        <br>
+        
+        <div style="width:100%;height:300px;" class="view overlay rounded z-depth-1-half mb-4">
+  <img src="img/2.png"  style="float:left;width:33%;height:100%; margin-top:30px;" class=" img-fluid view overlay rounded z-depth-5">
+  <img src="img/4.png" style="float:left;width:33%;height:100%; margin-top:30px;" class=" img-fluid view overlay rounded z-depth-5">>
+  <img src="img/13.jpg" style="float:left;width:34%;height:100%; margin-top:30px;" class=" img-fluid view overlay rounded z-depth-5">>
+</div>
         
         
-            <?php
+        
+             <?php
             include('listeProduit.php');
 
-            ?>
+            ?> 
+
+            <br>
+   
         
     
 
@@ -210,5 +224,7 @@
     <!-- Copyright -->
 
   </footer> 
+  
+
 </body>
 </html>

@@ -14,14 +14,15 @@ class Produit {
 		$this->name= $name;
 		$this->image= $image;
 		$this->price= $price;
-        $this->name= $cathegories;
-        $this->image= $type;
-        $this->price= $balance;
+        $this->cathegories= $cathegories;
+        $this->type= $type;
+        $this->balance= $balance;
+        
 		
 	}
 	public function ajouter() {
         $con = new PDO('mysql:host=localhost;dbname=test', 'root', '');
-        $req = "insert into tbl_product(name, image ,price ,cathegories ,type ,balance) values('$this->name', '$this->image', '$this->price', '$this->cathegories', '$this->type', '$this->balance')";
+        $req = "insert into tbl_product(name, image ,price ,cathegories ,type ,balance, quantity) values('$this->name', '$this->image', '$this->price', '$this->cathegories', '$this->type', '$this->balance', '$this->quantity')";
         $con->query($req);
     }
 	public static function getProduit() {

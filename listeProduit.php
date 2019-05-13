@@ -13,7 +13,7 @@ $listeProduit = Produit::getProduit();
     <body>
          
 <center>
-<table class="table" style="background-color: #F9EEEC;">
+<table class="table " style="background-color: #F9EEEC;">
     
 
   <thead class="thead-dark">
@@ -47,7 +47,7 @@ $listeProduit = Produit::getProduit();
       echo '<td>';
 
      echo "<a href='delete.php?id=$i' class='btn btn-dark mr-1'>Delete</a>";
-     echo "<a href='frm_update.php?id=$i' class='btn btn-danger mr-2'>update</a>";
+     echo "<a href='frm_update_action.php?id=$i' class='btn btn-outline-danger mr-2'>Edit</a>";
     
      //<a href="logout.php ?logout" class="btn btn-outline-info float-right"> Logout</a>';
                 echo '</td>';

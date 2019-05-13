@@ -72,6 +72,7 @@ if($statement->execute())
               <a href="">'.$k["type"].'</a>
               <a href="">'.$k["cathegories"].'</a>
               
+              
 
             </strong>
           </h4>
@@ -82,6 +83,7 @@ if($statement->execute())
             <span class="float-left font-weight-bold">
               <strong>TND '.$k["price"] .'</strong>
               <a href="">'.$k["balance"].'</a>
+              
 
               <input type="hidden" name="hidden_price" id="price'.$k["id"].'" value="'.$k["price"].'" />
             </span>
@@ -98,6 +100,7 @@ if($statement->execute())
       <br>
       <hr>
     </div>
+    
     ';
   }
   

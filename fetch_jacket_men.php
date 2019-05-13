@@ -69,6 +69,7 @@ if($statement->execute())
               <a href="">'.$k["type"].'</a>
               <a href="">'.$k["cathegories"].'</a>
               <a href="">'.$k["balance"].'</a>
+              
 
             </strong>
           </h4>

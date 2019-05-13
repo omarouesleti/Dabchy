@@ -68,11 +68,16 @@ if($statement->execute())
             <strong>
               <a href="">'.$k["type"].'</a>
               <a href="">'.$k["cathegories"].'</a>
+              <i class="fas fa-eye" data-toggle="modal" data-target="#exampleModalCenter"></i>
+        
+
+
+
             </strong>
           </h4>
           
           
-          <!-- Card footer -->
+          
           <div class="card-footer px-1">
             <span class="float-left font-weight-bold">
               <strong>TND '.$k["price"] .'</strong>
@@ -89,7 +94,9 @@ if($statement->execute())
       <br>
       <hr>
     </div>
+    
     ';
+    
   }
 
   echo $output;

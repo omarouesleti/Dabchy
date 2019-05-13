@@ -4,7 +4,7 @@ html{
 }
 #col
 {
-	opacity: 1;
+	opacity: 0.7;
 }
 
 *
@@ -126,79 +126,7 @@ body{
 	
 }
 
-#team1{
-	height: 250px;
-	width: 250px;
-	border-radius: 100%;
-	border: 2px solid #000000;
-	margin: 0 auto 0 auto;
-	padding: 3px;
 
-	
-
-}
-.profile{
-	margin-top: 28px;
-	
-}
-
-.profile .img-box{
-	opacity: 1;
-	display: block;
-	position: relative;
-}
-.profile h2{
-	font-size: 20px;
-	margin-top: 15px;
-	font-family: 'Roboto', sans-serif;
-}
-.img-box:after{
-	content: '';
-	opacity: 1;
-	background-color: rgba(0,0,0,0.6);
-	position: absolute;
-	right: 0;
-	left: 0;
-	top: 0;
-
-}
-.img-box ul{
-	margin: 1;
-	padding: 25px 2;
-	position: absolute;
-	z-index: 1;
-	bottom: 0;
-	display: block;
-	left: 50%;
-	transform: translateX(-50%);
-	opacity: 1;
-}
-
-.img-box ul li{
-	width: 27px;
-	height: 30px;
-	
-	border-radius: 35%;
-	margin: 2px;
-	padding: 3px;
-	display: inline-block;
-}
-.img-box a{
-	color: #FFEBCD;
-}
-.img-box:hover:after{
-	opacity: 1;
-}
-.img-box:hover ul{
-	opacity: 1;
-}
-.img-box a:hover li{
-	color: #007bff;
-	border: 1px solid #007bff;
-}
-.img-box:after, .img-box ul, .img-box ul li{
-	transition: all 0.5s ease-in-out 0s;
-}
 
 #customers-testimonial{
 	padding: 40px 0;

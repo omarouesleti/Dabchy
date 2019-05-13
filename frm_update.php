@@ -4,11 +4,11 @@ $id     = $_POST['id'];
 $name    = $_POST['name'];
 $image = $_POST['image'];
 $price     = $_POST['price'];
-$cathegories    = $_POST['cathegories'];
+$cathegories    = $_POST['categories'];
 $type = $_POST['type'];
-$balace = $_POST['balance'];
+$balance = $_POST['balance'];
 $objProduit = new Produit($name, $image, $price ,$cathegories ,$type ,$balance);
 $objProduit->modifier($id);
-header('location: listeProduit.php');
+header('location: wellcome.php');
 
 

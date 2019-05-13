@@ -90,17 +90,18 @@
               <li>
                 <a id="cart-popover" class="btn text-right" data-placement="bottom" title="Shopping Cart">
                   <span class="glyphicon glyphicon-shopping-cart"></span>
-                  <span class="badge"></span>
+                  <span class="badge badge-success">></span>
                   <span class="total_price">TND 0.00</span>
                 </a>
               </li>
             </ul>
     </div>
+    
 	</nav>
   <div id="popover_content_wrapper" style="margin-top: 70px; background:#F1E3D5">
         <span id="cart_details"></span>
         <div align="right">
-          <a href="" class="btn btn-outline-secondary" id="check_out_cart">
+          <a href="fetch_cart.php" class="btn btn-outline-secondary" id="check_out_cart">
           <span class="glyphicon glyphicon-shopping-cart"></span> Order
           </a>
           <a href="#" class="btn btn-outline-dark" id="clear_cart">

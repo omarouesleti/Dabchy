@@ -43,7 +43,7 @@ include('header.php');
   </ul>
   <div class="carousel-inner z-depth-5">
     <div class="carousel-item active">
-      <img src="img/1.jpg" alt="Los Angeles" width="1100" height="500">
+      <img src="img/3.jpg" alt="Los Angeles" width="1100" height="500">
       <div class="carousel-caption">
         <h1 style="color: #000000;text-transform: uppercase;font-size: 45px;">Woman's wear</h1>
         <p style="color: #000000 ;text-transform: uppercase;font-size: 18px;">We had such a great time in LA!</p>

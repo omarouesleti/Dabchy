@@ -101,7 +101,7 @@
   <div id="popover_content_wrapper" style="margin-top: 70px; background:#F1E3D5">
         <span id="cart_details"></span>
         <div align="right">
-          <a href="" class="btn btn-outline-secondary" id="check_out_cart">
+          <a href="https://www.sandbox.paypal.com/webapps/hermes?token=16J82615NT364081R&useraction=commit&mfid=1557270614660_abdcd3c6a8e6e" class="btn btn-outline-secondary" id="check_out_cart">
           <span class="glyphicon glyphicon-shopping-cart"></span> Order
           </a>
           <a href="#" class="btn btn-outline-dark" id="clear_cart">

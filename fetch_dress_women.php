@@ -9,6 +9,7 @@
     <link href="MDBootstrap/css/mdb.min.css" rel="stylesheet">
   
     <link href="MDBootstrap/css/style.css" rel="stylesheet">
+    <link href="MDBootstrap/css/mdb.min">
 </head>
 <body>
    <section class="text-center my-5">
@@ -19,6 +20,7 @@
   <p class="grey-text text-center w-responsive mx-auto mb-5 ">Lorem ipsum dolor sit amet, consectetur
     adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas
     nostrum quisquam eum porro a pariatur veniam.</p>
+    
 </body>
 </html>
 
@@ -69,6 +71,7 @@ if($statement->execute())
               <a href="">'.$k["type"].'</a>
               <a href="">'.$k["cathegories"].'</a>
               <a href="">'.$k["balance"].'</a>
+              
             </strong>
           </h4>
           
